@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Course file, saved 4/10/2019 10:06:26 PM by Sergei using CourseLab 181216 -->
+<course3>
+<aicc_code>Eldorado_Samsung_Galaxy_S10</aicc_code>
+<aicc_name>Газпром_EL_ВЭД</aicc_name>
+<aicc_description>Eldorado_Samsung_Galaxy_S10</aicc_description>
+<modules>
+<module>
+<name>1</name>
+<folder_id>0</folder_id>
+<file>1\1.xml</file>
+<aicc_code>Eldorado_Samsung_Galaxy_S10</aicc_code>
+<aicc_name>Газпром_EL_ВЭД</aicc_name>
+<aicc_description>mod_1</aicc_description>
+<aicc_maxmark></aicc_maxmark>
+<aicc_reqmark></aicc_reqmark>
+</module>
+</modules>
+<windows>
+<window>
+<module>1</module>
+<zoom>59</zoom>
+<subSlideVisible>true</subSlideVisible>
+<active>true</active>
+<slide>SLIDE_8</slide>
+</window>
+</windows>
+</course3>

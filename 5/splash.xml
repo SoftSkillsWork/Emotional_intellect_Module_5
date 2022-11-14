@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash screen file, saved 3/26/2021 9:56:16 AM using CourseLab 200122 -->
+<splash>
+<settings>
+<showsplash>yes</showsplash>
+<fitwindow>no</fitwindow>
+<fit_small_window>no</fit_small_window>
+</settings>
+<data>
+<![CDATA[<div style="position: absolute; box-sizing: border-box; left: 0px; top: 0px; width: 1000px; height: 700px;"><style type="text/css">.lmm-container.about {
+    padding: 0 25px;
+    width: 100%;
+    max-width: 1000px;
+  }
+    .baron {
+      height: 100%;
+    }
+    .lmm-button__fill.xxl,
+    .lmm-button__fill:visited.xxl,
+    .lmm-button__fill:focus.xxl,
+    .lmm-button__fill:active.xxl {
+      padding: 30px 50px;
+      font-size: 1.1429rem;
+      line-height: 1.30;
+    }
+    .js-toggle-cnt {
+      display: none;
+    }
+    .lmm-btn__about-splash {
+      color: #ffffff;
+      background-color: #8E00FE;
+    }
+    .lmm-btn__about-splash:hover {
+      background-color: rgba(142, 0, 254, 0.85);
+    }
+    a {
+      display: block;
+      color: #000000;
+    }
+    .link,
+    .subtitle,
+    .subtitle a {
+      color: #8E00FE;
+    }
+    .lmm-product__item {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .lmm-product__img {
+      position: relative;
+      bottom: -3px;
+    }
+    .align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+    .align-items-end {
+      -webkit-box-align: end !important;
+      -ms-flex-align: end !important;
+      align-items: flex-end !important;
+    }
+    @media (max-width: 719px) {
+      .lmm-margin__bottom_xs-25 {
+        margin-bottom: 25px;
+      }
+    }
+  </style>
+  <div class="baron lmm-splash-bg">
+    <div class="baron__scroller lmm-overflow-y-auto">
+      <div class="my__container">
+        <div class="lmm-container splash lmm-margin__top-30">
+          <div class="lmm-row">
+            <div class="col-lg-24 col-xs-12">
+              <div class="margin__green lmm-display__flex lmm-justify__between lmm-align__center">
+                <div><img alt="" class="lmm-display__xs_none" src="images\splash_img.png" width="61" /> <img alt="" class="lmm-display__xs_block" src="images\splash_img_mob.png" width="57" />
+                </div>
+                <div><a class="lmm-btn__about-splash" href="javascript:void(0)" id="js-show-info">О курсе</a>
+                </div>
+              </div>
+              <div class="lmm-row">
+                <div class="col-lg-12 col-xs-12">
+                  <div class="lmm-text__splash-s">Электронный курс
+                  </div>
+                  <div class="lmm-text__splash-l">Эмоциональный интеллект
+                  </div>
+                  <div class="lmm-text__splash-m">Итоговый тест
+                  </div>
+                  <div class="lmm-button__fill xxl lmm-rounded__fill" onclick="StartModule();">Начать
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="baron__track">
+      <div class="baron__bar">&nbsp;
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div class="baron lmm-bg__white lmm-about js-toggle-cnt">
+    <div class="baron__scroller lmm-overflow-y-auto"><!-- header -->
+      <div class="lmm-container about lmm-margin__top-30 margin__red">
+        <div class="lmm-row">
+          <div class="col-lg-24 col-xs-12"><img alt="" class="lmm-display__xs_none" src="images\splash_img.png" width="61" /> <img alt="" class="lmm-display__xs_block" src="images\splash_img.png" width="57" />
+          </div>
+        </div>
+      </div>
+      <div class="lmm-container about margin__red">
+        <div class="lmm-row margin__yellow">
+          <div class="col-lg-24 col-xs-12">
+            <h3 class="lmm-title__h3 lmm-text__bold">Готовые решения для электронного обучения
+            </h3>
+          </div>
+        </div>
+        <div class="lmm-row align-items-end">
+          <div class="col-lg-8 col-xs-12 lmm-margin__right_xs-0 lmm-margin__bottom_xs-25">
+            <div class="lmm-product__item">
+              <div class="lmm-row">
+                <div class="col-lg-12 col-xs-6"><img alt="e-learning courses" class="lmm-product__img lmm-img__fluid" src="images/courses.png" width="142" />
+                </div>
+                <div class="col-lg-12 col-xs-6">
+                  <div class="lmm-text__xl lmm-text__bold subtitle"><a class="lmm-product__item-sub" href="http://softskills.labmedia.su" target="_blank">Готовые курсы</a>
+                  </div>
+                  <div class="lmm-text__l"><a class="lmm-product__item-sub" href="http://softskills.labmedia.su" target="_blank">Soft Skills</a>
+                  </div>
+                  <div class="lmm-text__l"><a class="lmm-product__item-sub" href="http://softskills.labmedia.su" target="_blank">Hard Skills</a>
+                  </div>
+                  <div class="lmm-text__l"><a class="lmm-product__item-sub" href="http://softskills.labmedia.su" target="_blank">Digital Skills</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xs-12 lmm-margin__right_xs-0 lmm-margin__bottom_xs-25">
+            <div class="lmm-product__item">
+              <div class="lmm-row">
+                <div class="col-lg-12 col-xs-6"><img alt="boxbattle" class="lmm-product__img lmm-img__fluid" src="images/boxbattle.png" width="110" />
+                </div>
+                <div class="col-lg-12 col-xs-6">
+                  <div class="lmm-text__xl lmm-text__bold subtitle"><a class="lmm-product__item-sub" href="https://boxbattle.ru/" target="_blank">Box Battle</a>
+                  </div>
+                  <div class="lmm-text__l"><a class="lmm-product__item-sub" href="https://boxbattle.ru/" target="_blank">Сервис для тренировки знаний</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-xs-12">
+            <div class="lmm-product__item">
+              <div class="lmm-row">
+                <div class="col-lg-12 col-xs-6"><img alt="deal" class="lmm-product__img lmm-img__fluid" src="images/deal.png" width="100" />
+                </div>
+                <div class="col-lg-12 col-xs-6">
+                  <div class="lmm-text__xl lmm-text__bold subtitle"><a class="lmm-product__item-sub" href="https://deal.labmedia.su" target="_blank">По Рукам!</a>
+                  </div>
+                  <div class="lmm-text__l"><a class="lmm-product__item-sub" href="https://deal.labmedia.su" target="_blank">Симулятор продаж и сервиса</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lmm-container about margin__green">
+        <div class="lmm-row">
+            <div class="col-lg-24 col-xs-12">
+                <h3 class="lmm-title__h3 lmm-text__bold lmm-margin__bottom-20">Об экспертах курса
+                </h3>
+                <div class="lmm-row">
+                    <div class="col-lg-24 col-xs-12">
+                        <div class="lmm-text__xl lmm-text__bold margin__pink">Маркова Елена Владимировна</div>
+                        <div class="lmm-row align-items-center">
+                            <div class="col-lg-6 col-xs-12 lmm-margin__right_xs-0 lmm-margin__bottom_xs-25">
+                                <img class="lmm-img__fluid lmm-img__center" src="images/author.png" alt="">
+                            </div>
+                            <div class="col-lg-18 col-xs-12">
+                                <div class="lmm-text__xl margin__pink">Кандидат психологических наук</div>
+                                <div class="lmm-text__xl margin__pink">Доцент ЯрГУ им. П.Г. Демидова</div>
+                                <div class="lmm-text__xl">Бизнес-консультант Центра корпоративного обучения и консультирования</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lmm-container about margin__red">
+        <div class="lmm-row">
+            <div class="col-lg-24 col-xs-12">
+                <h3 class="lmm-title__h3 lmm-text__bold margin__pink">Релиз от 01.04.2021:
+                </h3>
+                <div class="lmm-text__xl">Выпущены курсы «CJM на практике» и «Контроль над коммуникацией».
+                </div>
+            </div>
+        </div>
+    </div>
+      <div class="lmm-container about margin__red">
+        <div class="lmm-row">
+          <div class="col-lg-24 col-xs-12">
+            <h4 class="lmm-title__h4 lmm-text__bold margin__pink">Контакты
+            </h4>
+            <a class="lmm-text__l link margin__pink" href="https://labmedia.su/" target="_blank">labmedia.su</a> <a class="lmm-text__l margin__pink" href="mailto:ss@labmedia.su">ss@labmedia.su</a> <a class="lmm-text__l" href="tel:+74951368606">+7 (495) 136-86-06</a>
+          </div>
+        </div>
+      </div>
+      <!-- buttons -->
+      <div class="lmm-container about">
+        <div class="lmm-row margin__blue">
+          <div class="col-lg-24 col-xs-12 lmm-align__v lmm-button__center">
+            <button class="lmm-button__fill xxl lmm-rounded__fill" id="js-show-splash">Закрыть
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scroll -->
+    <div class="baron__track">
+      <div class="baron__bar">&nbsp;
+      </div>
+    </div>
+  </div>
+  <script>
+    baron({
+      root: '.baron',
+      scroller: '.baron__scroller',
+      bar: '.baron__bar'
+    }).update();
+    $(document).ready(function () {
+      $('#js-show-info').click(function () {
+        $('.lmm-splash-bg').toggleClass('js-toggle-cnt');
+        $('.lmm-about').toggleClass('js-toggle-cnt');
+        onScrollContent();
+      });
+      $('#js-show-splash').click(function () {
+        $('.lmm-splash-bg').toggleClass('js-toggle-cnt');
+        $('.lmm-about').toggleClass('js-toggle-cnt');
+        $('.baron__bar').hide();
+      })
+    })
+  </script></div>]]>
+</data>
+</splash>
